@@ -2,7 +2,15 @@
 
 Truly minimal STM32G0xxFx development board.
 
-<img width="640" src="docs/placebo.png" >
+<img width="480" src="docs/placebo.png" >
+
+## Features
+
+* Breadboard/Perfboard friendly
+* Power line bypass capasitors
+* Reset circuit
+* [`Tag-Connect TC2030-CTX-NL`](https://www.tag-connect.com/product/tc2030-ctx-nl-stdc14-for-use-with-stm32-processors-with-stlink-v3) programming connector
+* Optional battery connector with LDO
 
 ## Resources
 
