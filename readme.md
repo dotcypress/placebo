@@ -2,7 +2,7 @@
 
 Truly minimal STM32G0xxFx development board.
 
-<img width="480" src="docs/placebo.png" >
+<img src="docs/placebo.png" >
 
 ## Features
 
