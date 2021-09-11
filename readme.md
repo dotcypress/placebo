@@ -14,6 +14,7 @@ Truly minimal STM32G0xxFx development board.
 
 ## Resources
 
+- [Order PCB on Oshpark](https://oshpark.com/shared_projects/A8ZeIT3V)
 - [Schematics](docs/placebo.pdf)
 - [Gerber files](docs/placebo.zip)
 - [BOM](docs/placebo.csv)
