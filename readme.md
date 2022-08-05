@@ -11,10 +11,11 @@ Truly minimal STM32G0xxFx development board.
 * Reset circuit
 * [`Tag-Connect TC2030-CTX-NL`](https://www.tag-connect.com/product/tc2030-ctx-nl-stdc14-for-use-with-stm32-processors-with-stlink-v3) programming connector
 * Optional battery connector with LDO
+* Optional configurable LED
 
 ## Resources
 
-- [Order PCB on Oshpark](https://oshpark.com/shared_projects/A8ZeIT3V)
+- [Order PCB on Oshpark](https://oshpark.com/shared_projects/Xkl2RPCo)
 - [Schematics](docs/placebo.pdf)
 - [Gerber files](docs/placebo.zip)
 - [BOM](docs/placebo.csv)
