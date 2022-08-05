@@ -2,7 +2,7 @@
 
 Truly minimal STM32G0xxFx development board.
 
-<img width="600" src="docs/placebo-pcb.png" >
+<img width="600" src="docs/placebo-pcb.png">
 
 ## Features
 
@@ -12,6 +12,10 @@ Truly minimal STM32G0xxFx development board.
 * [`Tag-Connect TC2030-CTX-NL`](https://www.tag-connect.com/product/tc2030-ctx-nl-stdc14-for-use-with-stm32-processors-with-stlink-v3) programming connector
 * Optional battery connector with LDO
 * Optional configurable LED
+
+## Pinout
+
+<img width="800" src="docs/stm32g0xx-pinout.png">
 
 ## Resources
 
