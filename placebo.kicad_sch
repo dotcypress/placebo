@@ -1732,7 +1732,7 @@
       (reference "U2") (unit 1) (value "STM32G0xxFx") (footprint "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm")
     )
     (path "/8549f47a-aa81-4d9a-b4c1-7ad09a0f10f2"
-      (reference "U3") (unit 1) (value "PlaceboConnect") (footprint "placebo:PlaceboConnect")
+      (reference "U3") (unit 1) (value "PlaceboConnect") (footprint "placebo:PlaceboConnect_Cutout")
     )
   )
 )
