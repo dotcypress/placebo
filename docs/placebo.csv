@@ -1,11 +1,8 @@
-Reference, Value, Footprint, Datasheet
-"C1","1uF","Capacitor_SMD:C_0603_1608Metric","~"
-"C2","1uF","Capacitor_SMD:C_0603_1608Metric","~"
-"C3","100nF","Capacitor_SMD:C_0603_1608Metric","~"
-"C4","10uF","Capacitor_SMD:C_0603_1608Metric","~"
-"C5","100nF","Capacitor_SMD:C_0603_1608Metric","~"
-"R1","10K","Resistor_SMD:C_0603_1608Metric","~"
-"U1","AP7370-33W5-7","Package_TO_SOT_SMD:TSOT-23-5_HandSoldering","https://www.mouser.com/datasheet/2/115/AP7370-1605740.pdf"
-"U2","STM32G0xxFx","Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm","https://www.st.com/en/microcontrollers-microprocessors/stm32g0-series.html"
-
-
+Designator,Comment,Footprint,LCSC Part Number
+U1,BCT2014EUK30,SOT-23-5,C2887819
+U2,STM32G0xxFx,TSSOP-20,C529330
+D1,LED,0603,C74343
+R1,10K,0603,C25804
+"R2, R4",330R,0603,C23138
+"C3, C5",100nF,0603,C14663
+"C1, C2, C4",10uF,0603,C96446
