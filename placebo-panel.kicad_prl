@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 31,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_nets": [],
@@ -13,7 +13,6 @@
       "vias": 1.0,
       "zones": 0.6
     },
-    "ratsnest_display_mode": 0,
     "selection_filter": {
       "dimensions": true,
       "footprints": true,
@@ -34,7 +33,6 @@
       3,
       4,
       5,
-      6,
       8,
       9,
       10,
@@ -61,13 +59,15 @@
       33,
       34,
       35,
-      36
+      36,
+      39,
+      40
     ],
     "visible_layers": "ffcffff_ffffffff",
     "zone_display_mode": 1
   },
   "meta": {
-    "filename": "placebo.kicad_prl",
+    "filename": "placebo-panel.kicad_prl",
     "version": 3
   },
   "project": {
