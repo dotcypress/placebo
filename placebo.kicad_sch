@@ -262,6 +262,35 @@
         )
       )
     )
+    (symbol "Mechanical:Fiducial" (in_bom yes) (on_board yes)
+      (property "Reference" "FID" (id 0) (at 0 5.08 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "Fiducial" (id 1) (at 0 3.175 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (id 2) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (id 3) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "fiducial marker" (id 4) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Fiducial Marker" (id 5) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "Fiducial*" (id 6) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "Fiducial_0_1"
+        (circle (center 0 0) (radius 1.27)
+          (stroke (width 0.508) (type default))
+          (fill (type background))
+        )
+      )
+    )
     (symbol "Placebo:AP7370-33W5-7" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
       (property "Reference" "U1" (id 0) (at 0 8.89 0)
         (effects (font (size 1.27 1.27)))
@@ -1113,6 +1142,24 @@
     (uuid fe7ec060-0090-4a67-a379-b8c2a18e5f31)
   )
 
+  (symbol (lib_id "Mechanical:Fiducial") (at 195.58 143.51 0) (unit 1)
+    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (uuid 003076aa-50a2-448f-9bf2-be06998c0f82)
+    (default_instance (reference "FID") (unit 1) (value "Fiducial") (footprint ""))
+    (property "Reference" "FID" (id 0) (at 198.12 142.875 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "Fiducial" (id 1) (at 198.12 145.415 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "" (id 2) (at 195.58 143.51 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 195.58 143.51 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+  )
+
   (symbol (lib_id "power:VCC") (at 52.07 129.54 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 01376a71-1307-4186-8bef-150780ca079a)
@@ -1755,23 +1802,11 @@
     (path "/01376a71-1307-4186-8bef-150780ca079a"
       (reference "#PWR02") (unit 1) (value "VCC") (footprint "")
     )
-    (path "/a12d5f25-796c-439d-8d09-e12e0fd2b9b8"
-      (reference "#PWR02") (unit 1) (value "VCC") (footprint "")
-    )
     (path "/bfc4e6d2-f090-4aed-9faa-0dacd2c9400d"
       (reference "#PWR03") (unit 1) (value "+3.3V") (footprint "")
     )
-    (path "/56756392-a618-4126-b5e1-a59545150644"
-      (reference "#PWR04") (unit 1) (value "GND") (footprint "")
-    )
     (path "/79d967a2-a3fb-4341-a626-f2a28f9639ac"
       (reference "#PWR04") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/1c1fcd17-9f67-46ff-8d65-90dacaed7b05"
-      (reference "#PWR05") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/7717233d-248e-4e06-b813-6cfb4b7025b6"
-      (reference "#PWR05") (unit 1) (value "GND") (footprint "")
     )
     (path "/fb85c0d6-20fe-4277-9b99-e82ff962b53f"
       (reference "#PWR05") (unit 1) (value "GND") (footprint "")
@@ -1782,12 +1817,6 @@
     (path "/78f4c0e5-8927-4a18-bfd6-4e9ebba770bf"
       (reference "#PWR07") (unit 1) (value "+3.3V") (footprint "")
     )
-    (path "/78c52b79-b62a-4123-ad0a-a2f81c23f1a5"
-      (reference "#PWR08") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/83afb465-fdc5-45e8-943d-d073e64deb4d"
-      (reference "#PWR08") (unit 1) (value "GND") (footprint "")
-    )
     (path "/b0f80bfd-5db1-42f9-9ab0-0af67335c0f8"
       (reference "#PWR08") (unit 1) (value "GND") (footprint "")
     )
@@ -1796,6 +1825,24 @@
     )
     (path "/1a62ee20-a91f-4dc2-ae36-d539623f4020"
       (reference "#PWR0102") (unit 1) (value "+3.3V") (footprint "")
+    )
+    (path "/1c1fcd17-9f67-46ff-8d65-90dacaed7b05"
+      (reference "#PWR0103") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/7717233d-248e-4e06-b813-6cfb4b7025b6"
+      (reference "#PWR0104") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/78c52b79-b62a-4123-ad0a-a2f81c23f1a5"
+      (reference "#PWR0105") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/83afb465-fdc5-45e8-943d-d073e64deb4d"
+      (reference "#PWR0106") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/56756392-a618-4126-b5e1-a59545150644"
+      (reference "#PWR0107") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/a12d5f25-796c-439d-8d09-e12e0fd2b9b8"
+      (reference "#PWR0108") (unit 1) (value "VCC") (footprint "")
     )
     (path "/10fad348-e2d5-4988-851d-25e3f509fb5d"
       (reference "C1") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
@@ -1814,6 +1861,9 @@
     )
     (path "/88a8f872-f17b-4b37-aeac-a8a5902e3f19"
       (reference "D1") (unit 1) (value "DNP") (footprint "LED_SMD:LED_0603_1608Metric")
+    )
+    (path "/003076aa-50a2-448f-9bf2-be06998c0f82"
+      (reference "FID1") (unit 1) (value "Fiducial") (footprint "Fiducial:Fiducial_0.5mm_Mask1.5mm")
     )
     (path "/9c2b882f-dd8b-4c18-b876-9c32757c3278"
       (reference "J2") (unit 1) (value "TagConnect") (footprint "placebo:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical")

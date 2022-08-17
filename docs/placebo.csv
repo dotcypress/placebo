@@ -1,8 +1,8 @@
-Designator,Comment,Footprint,LCSC Part Number
-U1,BCT2014EUK30,SOT-23-5,C2887819
-U2,STM32G0xxFx,TSSOP-20,C529330
-D1,LED,0603,C74343
-R1,10K,0603,C25804
-"R2, R4",330R,0603,C23138
-"C3, C5",100nF,0603,C14663
-"C1, C2, C4",10uF,0603,C96446
+Designator,Comment,Footprint,Mouser Link
+U1,AP7370-33W5,SOT-23-5,https://www.mouser.com/c/?q=AP7370-33W5-7
+U2,STM32G030F6P6TR,TSSOP-20,https://www.mouser.com/c/?q=STM32G030F6P6TR
+D1,LED,0603,https://www.mouser.com/c/?q=SML-D12W8WT86A
+R1,10K,0603,https://www.mouser.com/c/?q=CRT0603-FZ-1002ELF
+"R2, R4",330R,0603,https://www.mouser.com/c/?q=CRT0603-FY-3300ELF
+"C3, C5",100nF,0603,https://www.mouser.com/c/?q=C0603C104J4RAC
+"C1, C2, C4",10uF,0603,https://www.mouser.com/c/?q=CL10A106MA8NRNC
