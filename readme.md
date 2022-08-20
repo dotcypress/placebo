@@ -1,6 +1,6 @@
 # Placebo
 
-Truly minimal STM32G0xxFx prototyping board.
+Truly minimal STM32G0/STM32G0 proto board.
 
 <img width="600" src="docs/placebo-pcb.png">
 
