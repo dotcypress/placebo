@@ -2,8 +2,6 @@
 
 Truly minimal STM32G0/STM32C0 proto board.
 
-<img width="500" src="docs/placebo-pcb.png">
-
 ## Features
 
 * Breadboard/Perfboard friendly
@@ -12,6 +10,8 @@ Truly minimal STM32G0/STM32C0 proto board.
 * [`Tag-Connect TC2030-CTX-NL`](https://www.tag-connect.com/product/tc2030-ctx-nl-stdc14-for-use-with-stm32-processors-with-stlink-v3) programming connector
 * Optional battery connector with LDO
 * Optional configurable LED
+
+<img width="500" src="docs/placebo-pcb.png">
 
 ## Pinout
 

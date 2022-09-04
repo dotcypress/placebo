@@ -157,7 +157,7 @@
       (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp df5be348-90f4-4cab-a4de-495d05cb44f7))
     (fp_arc (start 6.830504 14.881943) (mid 6.514753 15.61808) (end 5.763767 15.896675)
       (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp 29201e5a-9859-4d79-bd3f-d026b4ec191f))
-    (fp_arc (start 7.643353 -13.160118) (mid 8.864669 -12.654232) (end 9.370553 -11.432918)
+    (fp_arc (start 7.643353 -13.160118) (mid 8.864665 -12.654232) (end 9.370553 -11.432918)
       (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp 1f473584-529b-43d8-bdf7-df3a6946ea07))
     (fp_arc (start 9.37049 11.608457) (mid 8.900859 12.793422) (end 7.747 13.335)
       (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp 7aa078b5-bb33-4127-b888-10d439e60416))
@@ -1246,11 +1246,11 @@
     (tags "kb_params=eyJBbGlnbm1lbnRDaG9pY2UiOiAiUmlnaHQiLCAiQ2FwTGVmdENob2ljZSI6ICIvIiwgIkNhcFJpZ2h0Q2hvaWNlIjogIi8iLCAiRm9udENvbWJvQm94IjogIm1wbHVzLTFtbi1tZWRpdW0iLCAiSGVpZ2h0Q3RybCI6ICIwLjgiLCAiTGF5ZXJDb21ib0JveCI6ICJGLlNpbGtTIiwgIk11bHRpTGluZVRleHQiOiAicGxhY2VibyIsICJQYWRkaW5nQm90dG9tQ3RybCI6ICI2IiwgIlBhZGRpbmdMZWZ0Q3RybCI6ICI2IiwgIlBhZGRpbmdSaWdodEN0cmwiOiAiNiIsICJQYWRkaW5nVG9wQ3RybCI6ICI2IiwgIldpZHRoQ3RybCI6ICIxIn0=")
     (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "kibuzzard-631021FD" (at 0 -3.98145) (layer "F.SilkS") hide
-        (effects (font (size 0 0)))
+        (effects (font (size 0 0) (thickness 0.15)))
       (tstamp 42e4c165-f349-4476-b778-11846de42135)
     )
     (fp_text value "G***" (at 0 3.98145) (layer "F.SilkS") hide
-        (effects (font (size 0 0)))
+        (effects (font (size 0 0) (thickness 0.15)))
       (tstamp e3cf9478-0316-48e1-8ea0-8c77395fc7b7)
     )
     (fp_poly
