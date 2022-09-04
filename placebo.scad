@@ -31,43 +31,39 @@ module PlaceboPCB(pin_height=10, pin_offset=2) {
 }
 
 module Jig() {
-  difference() {
-    union() {
-      hull() {
-        translate([9.4, 14, 1.5]) cylinder(d=4, h=3.6, center=true);
-        translate([-9.4, 14, 1.5]) cylinder(d=4, h=3.6, center=true);
-        translate([-9.4, -14, 0]) cylinder(d=4, h=1, center=true);
-        translate([9.4, -14, 0]) cylinder(d=4, h=1, center=true);
-        translate([0, -17, 0]) cylinder(d=8, h=1, center=true);
-      }
-      difference() {
-        rotate([-15, 0, 0]) hull() {
-          translate([9, 13, 6.7])
-            cylinder(d=4, h=2, center=true);
-          translate([-9, 13, 6.7])
-            cylinder(d=4, h=2, center=true);
-        }
-        rotate([-15, 0, 0])
-          translate([0, -1.1, 5])
-          scale([1.02, 1.02, 2.1])
-          PlaceboPCB(pin_height=0);
-      }
+difference() {
+    hull() {
+      translate([12, 18, 0]) cylinder(d=4, h=4, center=true);
+      translate([-12, 18, 0]) cylinder(d=4, h=4, center=true);
+      translate([-12, -16, -1]) cylinder(d=4, h=2, center=true);
+      translate([12, -16, -1]) cylinder(d=4, h=2, center=true);
+      translate([0, -20, -1]) cylinder(d=10, h=2, center=true);
     }
- 
-    translate([3, -17, 0]) 
-        cylinder(d=1, h=10, center=true);
-    translate([-3, -17, 0]) 
-        cylinder(d=1, h=10, center=true);
-    translate([0, -20, 1.5]) 
-        cylinder(d=1, h=3, center=true);
 
-    translate([0, 0, 1.9])
-      scale([1.02, 1.02, 2.4])
-      PlaceboPCB(pin_height=5);
+    hull() {
+      translate([0, 0, 4])
+        scale([1.05, 1.05, 2])
+        PlaceboPCB(pin_height=0);
+      translate([0, 0, -1.3]) 
+        PlaceboPCB(pin_height=0);
+    }
+  }
+
+  hull() {
+    rotate([0, 90, 0])
+      translate([-1.4, 18, 0])
+      cylinder(r=0.6, h=22.4, center=true);
+    rotate([0, 90, 0])
+      translate([-0.4, 18, 0])
+      cylinder(r=0.6, h=22.4, center=true);
+    rotate([0, 90, 0])
+      translate([-1.4, 14, 0])
+      cylinder(r=0.6, h=23, center=true);
   }
 }
 
 $fn=32;
 
-%translate([0, 0, 2.7]) PlaceboPCB(pin_height=6);
+%translate([0, 0, -0.8]) 
+  PlaceboPCB(pin_height=6);
 Jig();

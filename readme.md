@@ -2,7 +2,7 @@
 
 Truly minimal STM32G0/STM32C0 proto board.
 
-<img width="600" src="docs/placebo-pcb.png">
+<img width="500" src="docs/placebo-pcb.png">
 
 ## Features
 
@@ -17,12 +17,23 @@ Truly minimal STM32G0/STM32C0 proto board.
 
 <img width="800" src="docs/stm32g0xx-pinout.png">
 
+## Rust firmware
+
+1. Install rustup by following the instructions at https://rustup.rs
+2. Install Cortex-M0, M0+, and M1 (ARMv6-M architecture) target: `rustup target add thumbv6m-none-eabi`
+3. Install cargo-binutils: `cargo install cargo-binutils`
+4. Install cargo-generate: `cargo install cargo-generate` (Note: on some Linux distros (e.g. Ubuntu) you may need to install the packages libssl-dev and pkg-config prior to installing cargo-generate.)
+5. Generate project: `cargo generate --git https://github.com/dotcypress/placebo-template.git`
+6. Flash microcontroller: `cargo run`
+
+
 ## Resources
 
 - [Order PCB on Oshpark](https://oshpark.com/shared_projects/Xkl2RPCo)
 - [Schematics](docs/placebo.pdf)
 - [Gerber files](docs/placebo.zip)
 - [BOM](docs/placebo.csv)
+
 
 ## License
 
