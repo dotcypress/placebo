@@ -34,6 +34,7 @@ Truly minimal STM32G0/STM32C0 proto board.
 - [Schematics](docs/placebo.pdf)
 - [Gerber files](docs/placebo.zip)
 - [BOM](docs/placebo.csv)
+- [Interactive BOM](https://htmlpreview.github.io/?https://github.com/dotcypress/placebo/blob/main/docs/ibom.html)
 
 ## License
 
