@@ -1254,7 +1254,7 @@
     (property "Reference" "U" (id 0) (at 86.614 60.706 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "" (id 1) (at 86.614 63.246 0)
+    (property "Value" "" (id 1) (at 85.852 63.246 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (id 2) (at 93.9292 65.786 0)
@@ -1352,10 +1352,10 @@
     (in_bom yes) (on_board yes)
     (uuid 517410fd-5c0d-4b37-a685-3bd4b7c21b64)
     (default_instance (reference "U") (unit 1) (value "") (footprint ""))
-    (property "Reference" "U" (id 0) (at 61.595 136.017 90)
+    (property "Reference" "U" (id 0) (at 63.627 136.017 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "" (id 1) (at 66.04 136.017 90)
+    (property "Value" "" (id 1) (at 64.516 140.97 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "" (id 2) (at 62.23 140.208 90)
@@ -1575,7 +1575,7 @@
     (property "Footprint" "" (id 2) (at 47.625 131.318 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (id 3) (at 47.625 131.318 0)
+    (property "Datasheet" "https://www.mouser.com/datasheet/2/348/sml-d12w8w(a)-e-1874513.pdf" (id 3) (at 47.625 131.318 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 69099385-3ad6-464a-ab7c-a2887895188a))
@@ -1748,7 +1748,7 @@
     (property "Reference" "U" (id 0) (at 132.334 60.706 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "" (id 1) (at 132.334 63.246 0)
+    (property "Value" "" (id 1) (at 131.318 63.119 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (id 2) (at 139.6492 65.786 0)
@@ -2010,10 +2010,10 @@
       (reference "#PWR0113") (unit 1) (value "+3.3V") (footprint "")
     )
     (path "/10fad348-e2d5-4988-851d-25e3f509fb5d"
-      (reference "C1") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+      (reference "C1") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/ad4e5830-fc9f-4de1-95d7-b549b51196a0"
-      (reference "C2") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+      (reference "C2") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/ea9ef5aa-2a55-4b4f-b7a1-29bd35e51a5e"
       (reference "C3") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0603_1608Metric")
@@ -2025,7 +2025,7 @@
       (reference "C5") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/88a8f872-f17b-4b37-aeac-a8a5902e3f19"
-      (reference "D1") (unit 1) (value "DNP") (footprint "LED_SMD:LED_0603_1608Metric")
+      (reference "D1") (unit 1) (value "SML-D12W8WT86A") (footprint "LED_SMD:LED_0603_1608Metric")
     )
     (path "/003076aa-50a2-448f-9bf2-be06998c0f82"
       (reference "FID1") (unit 1) (value "Fiducial") (footprint "Fiducial:Fiducial_0.5mm_Mask1.5mm")
@@ -2037,7 +2037,7 @@
       (reference "R1") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/517410fd-5c0d-4b37-a685-3bd4b7c21b64"
-      (reference "R2") (unit 1) (value "DNP") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R2") (unit 1) (value "470R") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/8f61ea87-2635-46b2-b1be-1f060a135611"
       (reference "R3") (unit 1) (value "DNP") (footprint "Resistor_SMD:R_0603_1608Metric")
