@@ -157,7 +157,7 @@
       (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp df5be348-90f4-4cab-a4de-495d05cb44f7))
     (fp_arc (start 6.830504 14.881943) (mid 6.514753 15.61808) (end 5.763767 15.896675)
       (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp 29201e5a-9859-4d79-bd3f-d026b4ec191f))
-    (fp_arc (start 7.643353 -13.160118) (mid 8.864665 -12.654232) (end 9.370553 -11.432918)
+    (fp_arc (start 7.643353 -13.160118) (mid 8.864669 -12.654232) (end 9.370553 -11.432918)
       (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp 1f473584-529b-43d8-bdf7-df3a6946ea07))
     (fp_arc (start 9.37049 11.608457) (mid 8.900859 12.793422) (end 7.747 13.335)
       (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp 7aa078b5-bb33-4127-b888-10d439e60416))
@@ -1002,7 +1002,7 @@
 
   (footprint "Fiducial:Fiducial_0.5mm_Mask1.5mm" (layer "F.Cu")
     (tstamp c3b031f0-ed32-4daf-b730-279134d79d65)
-    (at 76.1746 88.4174)
+    (at 78.105 87.249)
     (descr "Circular Fiducial, 0.5mm bare copper, 1.5mm soldermask opening")
     (tags "fiducial")
     (property "Sheetfile" "File: placebo.kicad_sch")
