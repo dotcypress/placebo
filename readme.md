@@ -11,7 +11,7 @@ Truly minimal STM32G0/STM32C0 proto board.
 * Optional battery connector with LDO
 * Optional configurable LED
 
-<img width="500" src="docs/placebo-pcb.png">
+<img width="500" src="docs/placebo-pcb.jpg">
 
 ## Pinout
 
