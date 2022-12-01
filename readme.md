@@ -30,7 +30,7 @@ Truly minimal STM32G0/STM32C0 proto board.
 
 ## Resources
 
-- [Order PCB on Oshpark](https://oshpark.com/shared_projects/8Kp72INh)
+- [Order PCB on Oshpark](https://oshpark.com/shared_projects/tT7z3ldx)
 - [Schematics](docs/placebo.pdf)
 - [Gerber files](docs/placebo.zip)
 - [BOM](docs/placebo.csv)
