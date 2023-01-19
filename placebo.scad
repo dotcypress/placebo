@@ -1,5 +1,6 @@
 module PlaceboCutout(height=1.6) {
   translate([-10.76, -16.6, -height/2])
+    hull()
     linear_extrude(height=height, convexity=8)
     import(file="placebo.svg");
 }
@@ -30,40 +31,38 @@ module PlaceboPCB(pin_height=10, pin_offset=2) {
     cube([7, 4, 0.6], center=true);
 }
 
-module Jig() {
-difference() {
-    hull() {
-      translate([12, 18, 0]) cylinder(d=4, h=4, center=true);
-      translate([-12, 18, 0]) cylinder(d=4, h=4, center=true);
-      translate([-12, -16, -1]) cylinder(d=4, h=2, center=true);
-      translate([12, -16, -1]) cylinder(d=4, h=2, center=true);
-      translate([0, -20, -1]) cylinder(d=10, h=2, center=true);
-    }
+module Printer(d=7) {
+  cr=3;
+  h=3;
+  w=64;
+  l=50;
 
-    hull() {
-      translate([0, 0, 4])
-        scale([1.05, 1.05, 2])
-        PlaceboPCB(pin_height=0);
-      translate([0, 0, -1.3]) 
-        PlaceboPCB(pin_height=0);
+  difference() {
+    union() {
+      hull() {
+        translate([w/2-cr,d,0]) cylinder(r=cr, h=h, center=true);
+        translate([w/2-cr,l/2-cr,0]) cylinder(r=cr, h=h, center=true);
+        translate([-w/2+cr,l/2-cr,0]) cylinder(r=cr, h=h, center=true);
+        translate([-w/2+cr,0,0]) cylinder(r=cr, h=h, center=true);
+      }
+      hull() {
+        translate([w/2-cr,-l/2+cr,0]) cylinder(r=cr, h=h, center=true);
+        translate([w/2-cr,-d,0]) cylinder(r=cr, h=h, center=true);
+        translate([-w/2+cr,0,0]) cylinder(r=cr, h=h, center=true);
+        translate([-w/2+cr,-l/2+cr,0]) cylinder(r=cr, h=h, center=true);
+      }
     }
-  }
-
-  hull() {
-    rotate([0, 90, 0])
-      translate([-1.4, 18, 0])
-      cylinder(r=0.6, h=22.4, center=true);
-    rotate([0, 90, 0])
-      translate([-0.4, 18, 0])
-      cylinder(r=0.6, h=22.4, center=true);
-    rotate([0, 90, 0])
-      translate([-1.4, 14, 0])
-      cylinder(r=0.6, h=23, center=true);
+    rotate([0,0,90])
+      translate([0,-3,h/2-0.79])
+      PlaceboCutout();
+    rotate([0,0,90])
+      translate([0,-3,h/2-0.79])
+      scale([0.85,0.9,10]) 
+      PlaceboCutout();
   }
 }
 
-$fn=32;
+$fn=128;
 
-%translate([0, 0, -0.8]) 
-  PlaceboPCB(pin_height=6);
-Jig();
+// projection(cut=true) translate([0,0,1])
+Printer();
